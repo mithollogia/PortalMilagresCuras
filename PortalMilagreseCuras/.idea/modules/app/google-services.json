@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "688615479407",
+    "firebase_url": "https://portal-milagres-e-curas-96699.firebaseio.com",
+    "project_id": "portal-milagres-e-curas-96699",
+    "storage_bucket": "portal-milagres-e-curas-96699.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688615479407:android:c383d3df8f0995ba1b159a",
+        "android_client_info": {
+          "package_name": "com.portalmilagresecuras"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688615479407-jeo47fqkkhih5i4k2lk8da17abs3p5sf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.portalmilagresecuras",
+            "certificate_hash": "5fb4d666525895db695e356499dd803e5cecf4a6"
+          }
+        },
+        {
+          "client_id": "688615479407-29eg38r3gd70jhpbm7luno6bmb97loed.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA417qn_Y_S1u8U_42D135oRc6MVvuHeGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688615479407-29eg38r3gd70jhpbm7luno6bmb97loed.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

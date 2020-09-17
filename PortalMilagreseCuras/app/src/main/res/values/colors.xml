@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#CFA21B</color>
+    <color name="colorAccent">#F6E335</color>
+    <color name="colorTrans">#80000000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="menu">#FFC107</color>
+
+    <color name="start">#009688</color>
+    <color name="middle">#00BCD4</color>
+    <color name="end">#03A9F4</color>
+
+
+</resources>

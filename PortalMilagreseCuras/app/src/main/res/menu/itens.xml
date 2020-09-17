@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/icon_home"
+        android:title="Home"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_coments"
+        android:icon="@drawable/icon_coments"
+        android:title="Comentários"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_sobre"
+        android:icon="@drawable/icon_sobre"
+        android:title="sobre"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_police"
+        android:icon="@drawable/icon_police"
+        android:title="Politica"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/icon_profile"
+        android:title="Perfil"
+        app:showAsAction="ifRoom"/>
+
+</menu>

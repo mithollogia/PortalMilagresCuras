@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10dp">
+    
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:text="Insira seu nome:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:padding="10dp"
+            android:id="@+id/nome"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|textCapWords"
+            android:background="@drawable/border"/>
+
+        <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="Endereço de e-mail:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+        <EditText
+            android:padding="10dp"
+            android:id="@+id/email"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/border"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="Data de nascimento:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:inputType="date"
+            android:id="@+id/dnasc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

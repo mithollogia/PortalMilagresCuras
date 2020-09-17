@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".interfaces.Login"
+    android:gravity="center"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:padding="15dp"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#80FFFFFF">
+
+        <LinearLayout
+            android:id="@+id/logo"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/logoImage"
+                android:background="@drawable/logo"
+                android:layout_width="180dp"
+                android:layout_height="120dp"/>
+
+            <TextView
+                android:shadowDx="-1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:id="@+id/logoTitle"
+                android:shadowColor="#80000000"
+                android:text="@string/titleapp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:shadowDy="1"
+            android:shadowDx="-1"
+            android:textSize="12sp"
+            android:shadowRadius="1"
+            android:textStyle="bold"
+            android:id="@+id/setMesssage"
+            android:shadowColor="#000000"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"/>
+
+        <EditText
+            android:maxLines="1"
+            android:id="@+id/name"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:hint="Seu nome completo?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|textCapWords"
+            android:background="@drawable/border"/>
+
+        <Button
+            android:text="enviar nome"
+            android:id="@+id/enviarName"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"/>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@+id/contry"
+                android:padding="10dp"
+                android:layout_width="120dp"
+                android:layout_height="45dp"/>
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:inputType="number"
+                android:maxLines="1"
+                android:maxLength="11"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"/>
+
+        </LinearLayout>
+
+        <Button
+            android:text="enviar"
+            android:id="@+id/enviarNumero"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:maxLines="1"
+            android:id="@+id/code"
+            android:maxLength="6"
+            android:padding="10dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"/>
+
+        <Button
+            android:id="@+id/enviarCode"
+            android:text="validar code"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"/>
+
+    </LinearLayout>
+</RelativeLayout>
